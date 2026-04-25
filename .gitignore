@@ -1,0 +1,38 @@
+# Sensitive/local data
+data/
+
+# Environment and secrets
+.env
+.env.*
+*.pem
+*.key
+*.p12
+*.crt
+
+# Vector store / binary artifacts
+*.faiss
+*.pkl
+
+# Python cache/build
+__pycache__/
+*.py[cod]
+*.so
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+dist/
+build/
+*.egg-info/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# macOS
+.DS_Store
